@@ -1,0 +1,30 @@
+{
+  "name": "http-backend",
+  "version": "1.0.0",
+  "description": "HelpDesk backend",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "start": "node server.js",
+    "watch": "forever -w server.js"
+  },
+  "engines": {
+    "node": "11.x"
+  },
+  "dependencies": {
+    "forever": "^1.0.0",
+    "koa": "^2.11.0",
+    "koa-body": "^4.1.1",
+    "uuid": "^3.4.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stanislav-Pronkin/AHJ-7-backend.git"
+  },
+  "author": "Stanislav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stanislav-Pronkin/AHJ-7-backend/issues"
+  },
+  "homepage": "https://github.com/Stanislav-Pronkin/AHJ-7-backend#readme"
+}
